@@ -1,0 +1,3 @@
+Cowboy Bebop landing page
+
+Based on The Odin Project task (Foundation Course: Project: Landing page) I try to create page about my passion and useful for others. So, this landing page introduce you with Cowboy Bebop main characters, and some strong quotes from this anime. If you want to know more about this anime, you can go to fandom wiki, or if you wanna watch the anime, you can watch it on Netflix or Crunchyroll!
