@@ -4,4 +4,4 @@ Light beautiful UI for The Odin's Project Rock Paper Scissors assignment
 
 Complete result:
 
-![RPS-UI](https://imgur.com/qPeQVPV "Rock Paper Scissors UI")
+![RPS-UI](https://i.imgur.com/qPeQVPV.png "Rock Paper Scissors UI")
