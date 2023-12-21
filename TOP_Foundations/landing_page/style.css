@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.header-wrap {
+    max-width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header-img {
+    width: 150px;
+    height: auto;
+}
+
+.header-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.header-menu a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.main {
+    background-color: #1f2937;
+}
+
+.main-wrap {
+    max-width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+    padding: 100px 0;
+}
+
+.main-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-img {
+    width: 450px;
+    height: auto;
+}
+
+.main-text .main-span, h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-span {
+    font-weight: 400;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.main-text h1 {
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    font-size: 64px;
+    color: #f9faf8;
+}
+
+.main-btn {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 35px;
+    color: #e5e7eb;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+}
+
+.characters-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.characters-wrap {
+    max-width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.characters-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.character {
+    width: 200px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #fbfafa;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.character-name {
+    font-size: 24px;
+}
+
+.img-wrap {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-wrap {
+    max-width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    text-align: right;
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.watch-wrap {
+    max-width: 70vw;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.watch-section {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.watch-text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.watch-header {
+    color:#f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.watch-span {
+    color:#e5e7eb;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.watch-action {
+    border: 2px #f9faf8 solid;
+    background-color: #3882f6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.footer-wrap {
+    max-width: 50vw;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: #f9faf8;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
