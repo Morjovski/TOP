@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="calculator.js" defer></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <main class="page">
+        <div class="phone">
+            <div class="speaker"></div>
+            <div class="border"></div>
+            <div class="volume-up"></div>
+            <div class="volume-down"></div>
+            <div class="sound-off"></div>
+            <div class="block"></div>
+        </div>
+        <div class="calculator">
+            <div class="info">
+                <div class="clock" id="clock"></div>
+                <img class="airplane-mode" src="img/airplane.png" alt="">
+                <img class="wifi" src="img/wifi.png" alt="">
+                <img class="battery" src="img/battery.png" alt="">
+            </div>
+            <div class="output">
+                <div class="displayValue"></div>
+                <div class="userOutput"></div>
+            </div>
+            <div class="borderline"></div>
+            <div class="input">
+                <div class="row">
+                    <button class="gray" id="clear">C</button>
+                    <button class="backspace gray" id="backspace">&#8629;</button>
+                    <button class="number gray" id="percent">%</button>
+                    <button class="operator">/</button>
+                </div>
+                <div class="row">
+                    <button class="number">1</button>
+                    <button class="number">2</button>
+                    <button class="number">3</button>
+                    <button class="operator">*</button>
+                </div>
+                <div class="row">
+                    <button class="number">4</button>
+                    <button class="number">5</button>
+                    <button class="number">6</button>
+                    <button class="operator">-</button>
+                </div>
+                <div class="row">
+                    <button class="number">7</button>
+                    <button class="number">8</button>
+                    <button class="number">9</button>
+                    <button class="operator">+</button>
+                </div>
+                <div class="row">
+                    <button class="zero number">0</button>
+                    <button class="number" id="float">.</button>
+                    <button class="equal">=</button>
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+    </main>
+</body>
+
+</html>
