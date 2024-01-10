@@ -8,11 +8,11 @@ Hi! This is final assignment from The Odin Project: Foundation Course. I've crea
 * divide
 * calculate percentage of a number
 
-[!NOTE]
-This calculator shows a real time! (just because)
+> [!NOTE]
+> This calculator shows a real time! (just because)
 
-[!WARNING]
-The calculator does not support Numpad (right now, maybe later?)
+> [!WARNING]
+> The calculator does not support Numpad (right now, maybe later?)
 
 ## Screenshot
 
