@@ -101,7 +101,7 @@ body {
     margin-right: 40px;
 }
 
-.invalid-msg {
+.validation-msg {
     display: block;
     height: 20px;
     font-size: 0.9rem;
@@ -109,7 +109,7 @@ body {
     opacity: 0;
 }
 
-#pwd + .invalid-msg, #pwd-confirm + .invalid-msg {
+#pwd + .validation-msg, #pwd-confirm + .validation-msg {
     opacity: 1;
 }
 

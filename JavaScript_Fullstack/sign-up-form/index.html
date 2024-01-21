@@ -24,34 +24,34 @@
                 </span>
                 <form action="#" class="sign-up" method="post" id="sign-up-form">
                     <div class="first-name form-elem">
-                        <label for="fname">First Name</label>
+                        <label for="fname">First Name *</label>
                         <input type="text" id="fname" placeholder="Andrew" pattern="[A-Za-z\-]+" required>
-                        <span class="invalid-msg">Please use letters</span>
+                        <span class="validation-msg">Please use letters</span>
                     </div>
                     <div class="last-name form-elem">
-                        <label for="lname">Last Name</label>
+                        <label for="lname">Last Name *</label>
                         <input type="text" id="lname" placeholder="Tate" pattern="[A-Za-z]+" required>
-                        <span class="invalid-msg">Please use letters</span>
+                        <span class="validation-msg">Please use letters</span>
                     </div>
                     <div class="mail form-elem">
-                        <label for="mail-adress">Email</label>
+                        <label for="mail-adress">Email *</label>
                         <input type="email" id="mail-adress" placeholder="example@mail.sru" required>
-                        <span class="invalid-msg">Incorrect email</span>
+                        <span class="validation-msg">Incorrect email</span>
                     </div>
                     <div class="phone-number form-elem">
-                        <label for="number">Phone Number</label>
+                        <label for="number">Phone Number *</label>
                         <input type="tel" id="number" placeholder="+88005553535" pattern="^[\+]\d{9,}$" required>
-                        <span class="invalid-msg">Incorrect phone number</span>
+                        <span class="validation-msg">Incorrect phone number</span>
                     </div>
                     <div class="password form-elem">
-                        <label for="pwd">Password</label>
+                        <label for="pwd">Password *</label>
                         <input class="invalid" type="password" id="pwd" placeholder='pls not 1111' required>
-                        <span class="invalid-msg">Password must match!</span>
+                        <span class="validation-msg">Passwords must match!</span>
                     </div>
                     <div class="confirm-password form-elem">
-                        <label for="pwd-confirm">Confirm Password</label>
+                        <label for="pwd-confirm">Confirm Password *</label>
                         <input class="invalid" type="password" id="pwd-confirm" placeholder="read the first rule" required>
-                        <span class="invalid-msg">Password must match!</span>
+                        <span class="validation-msg">Passwords must match!</span>
                     </div>
                 </form>
             </div>
