@@ -13,4 +13,4 @@ const flowersForAlgernon = new Book("Flowers For Algernon", "Daniel Keyes", 311,
 
 console.log(theHobbit.info());
 console.log(flowersForAlgernon.info());
-console.log(theHobbit)
+console.log(theHobbit);
